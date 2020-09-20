@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+  
+}
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+svg path{
+    color: white;
+    opacity:.86;
+    box-shadow: 2px 2px 10px black;
+
+}
+ 
+body{
+    margin:0;
+    padding:0;
+}
+svg{
+    
+    margin:0 auto;
+    display: block;
+    margin-top: 7%;
+    opacity: 86%;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+}
+.left {
+   display: flex;
+   flex-wrap: wrap-reverse;
+   justify-content: flex-start;
+   flex-direction: column;
+   align-items: flex-start;
+   align-content: flex-start;
+   margin: 5%;
+   margin-left: 7%;margin-right: 17%;
+   ;
+}
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 5%;
+    margin-right: 7%; margin-left: 17%;
+    ;
+}
+button{
+
+    padding: 14px 40px;
+    width: 250px;
+    height: 80px;
+    margin: 3%;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 13px;
+    border: 3px solid 
+    white ;
+    background-color: none;
+    background: none;
+    cursor: pointer;
+    color:white;
+    opacity: 70%;
+}
+
+button:hover{
+    
+    opacity: 01.5;   box-shadow: 0px 0px 5px black;;
+}
+  
+svg:hover{
+    opacity:1;
+ 
+}
+
+svg{
+    cursor: pointer;
+}
